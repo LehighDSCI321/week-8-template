@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_1
-        setup-command: pip install pytest pylint
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_1.py
         timeout: 10
         max-score: 10
@@ -27,7 +27,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_pylint_warnings
-        setup-command: pip install pytest pylint
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_2.py
         timeout: 10
         max-score: 10
@@ -36,7 +36,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_3
-        setup-command: pip install pytest pylint
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_3.py
         timeout: 10
         max-score: 10
@@ -45,7 +45,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_4
-        setup-command: pip install pytest
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_4.py
         timeout: 10
         max-score: 10
@@ -54,7 +54,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_5
-        setup-command: pip install pytest
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_5.py
         timeout: 10
         max-score: 10
@@ -63,7 +63,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_6
-        setup-command: pip install pytest
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_6.py
         timeout: 10
         max-score: 10
@@ -72,7 +72,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_7
-        setup-command: pip install pytest
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_7.py
         timeout: 10
         max-score: 10
@@ -81,7 +81,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_8
-        setup-command: pip install pytest
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_8.py
         timeout: 10
         max-score: 10
@@ -90,7 +90,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_9
-        setup-command: pip install pytest
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_9.py
         timeout: 10
         max-score: 10
@@ -99,7 +99,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_graph_representation_10
-        setup-command: pip install pytest
+        setup-command: pip install pytest pylint graphviz bokeh
         command: pytest test/test_graph_representation_10.py
         timeout: 10
         max-score: 10
